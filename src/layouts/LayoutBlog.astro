@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Blog - Wakhid Pangestu" seoTitle="Blog - Wakhid Pangestu">
+  <slot />
+
+  <script>
+    if (window.location.pathname.includes("blog")) {
+      balanceText();
+    }
+  </script>
+</Layout>
