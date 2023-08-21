@@ -50,10 +50,10 @@ import ProjectHeader from "./ProjectHeader.astro";
 
 <script>
   import {
-    animate,
-    glide,
-    inView,
-  } from "https://cdn.skypack.dev/pin/motion@v10.14.2-LJwQD7W51KHV0ZIF3ZRz/mode=imports,min/optimized/motion.js";
+animate,
+glide,
+inView
+} from "https://cdn.skypack.dev/pin/motion@v10.14.2-LJwQD7W51KHV0ZIF3ZRz/mode=imports,min/optimized/motion.js";
 
   const defaultEasing = [0.17, 0.55, 0.55, 1];
 
@@ -70,7 +70,7 @@ import ProjectHeader from "./ProjectHeader.astro";
     });
   });
 
-  const buttons = ["#btn-live-in-production-natatoko-com", "#btn-live-in-production-natanya-app"];
+  const buttons = ["#btn-live-in-production-shoemarket", "#btn-live-in-production-portfolio-typescript"];
 
   buttons.forEach((btn) => {
     inView(`${btn}`, () => {

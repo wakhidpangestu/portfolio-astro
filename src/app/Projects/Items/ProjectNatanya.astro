@@ -2,9 +2,9 @@
 import { Image } from "@astrojs/image/components";
 
 import ButtonLiveProduction from "../../../components/ButtonLiveProduction/ButtonLiveProduction.astro";
-import IconFirebase from "../Icons/IconFirebase.astro";
 import IconNext from "../Icons/IconNext.astro";
 import IconReact from "../Icons/IconReact.astro";
+import IconTailwindcss from "../Icons/IconTailwindcss.astro";
 import NatanyaIcon from "../Natanya/IconNatanya.astro";
 import ProjectSlider from "../ProjectSlider.astro";
 ---
@@ -37,15 +37,13 @@ import ProjectSlider from "../ProjectSlider.astro";
   />
 
   <div class="relative z-10 px-5 sm:px-10 lg:px-16">
-    <h3 class="sr-only">Natanya</h3>
+    <h3 class="sr-only">Portfolio</h3>
     <NatanyaIcon />
 
-    <h4 class="sr-only">About Natanya</h4>
+    <h4 class="sr-only">About Portfolio</h4>
 
     <p class="mt-10 text-lg !leading-150 text-dark sm:text-2xl">
-      <span class="font-semibold">Introducing Natanya</span> - an interactive polling tool that makes it easy to create engaging
-      polls and collect data from an audience in real-time. It can be used during live events, and the results can be displayed
-      with a chart data visualization.
+      <span class="font-semibold">Introducing Portfolio Typescript</span> - an portfolio showcases projects developed using the TypeScript programming language, highlighting your mastery of its concepts like strong typing and classes. It demonstrates your ability to solve challenges, improve performance, and create maintainable code. This portfolio validates your skills in TypeScript-based software development.
     </p>
   </div>
 
@@ -53,11 +51,11 @@ import ProjectSlider from "../ProjectSlider.astro";
     <ProjectSlider
       project="natanya"
       images={[
-        { url: "/images/projects/5@natanya.png", alt: "Natanya" },
-        { url: "/images/projects/1@natanya.png", alt: "Natanya" },
-        { url: "/images/projects/2@natanya.png", alt: "Natanya" },
-        { url: "/images/projects/3@natanya.png", alt: "Natanya" },
-        { url: "/images/projects/4@natanya.png", alt: "Natanya" },
+        { url: "/images/projects/1@typescript.png", alt: "Portfolio Typescript" },
+        { url: "/images/projects/2@typescript.png", alt: "Portfolio Typescript" },
+        { url: "/images/projects/3@typescript.png", alt: "Portfolio Typescript" },
+        { url: "/images/projects/4@typescript.png", alt: "Portfolio Typescript" },
+        // { url: "/images/projects/4@typescript.png", alt: "Portfolio Typescript" },
       ]}
     />
   </div>
@@ -74,12 +72,12 @@ import ProjectSlider from "../ProjectSlider.astro";
     </p>
 
     <div class="mt-10 mb-10 sm:mt-[4.4rem] sm:mb-14">
-      <ButtonLiveProduction name="natanya.app" link="https://natanya.app" />
+      <ButtonLiveProduction name="portfolio-typescript" link="https://portfolio-typescript.netlify.app/" />
     </div>
 
     <div class="flex items-start space-x-4 pl-5 sm:space-x-10 sm:pl-8">
-      <a target="_blank" href="https://github.com/helmisatria/natanya" class="font-semibold leading-6 tracking-tight">
-        <span class="block text-xl leading-4 text-dark sm:text-[32px] sm:!leading-100">natanya</span>
+      <a target="_blank" href="https://github.com/hiddev-id/portfolio-typescript" class="font-semibold leading-6 tracking-tight">
+        <span class="block text-xl leading-4 text-dark sm:text-[32px] sm:!leading-100">portfolio-typescript</span>
         <span class="inline-flex space-x-[6px] text-sm text-slate-700 sm:pt-2 sm:text-xl">
           <span>on</span>
           <span
@@ -100,7 +98,7 @@ import ProjectSlider from "../ProjectSlider.astro";
         </span>
       </a>
 
-      <a
+      <!-- <a
         href="https://www.craft.do/s/ex5FMKPcB8pFUy"
         target="_blank"
         class="inline-flex items-center space-x-2 font-semibold leading-6 tracking-tight sm:space-x-3"
@@ -121,14 +119,14 @@ import ProjectSlider from "../ProjectSlider.astro";
             >+ more video demonstration</span
           >
         </div>
-      </a>
+      </a> -->
     </div>
 
     <div class="mt-20">
       <h4 class="text-2xl font-semibold leading-140 text-dark sm:text-[32px]">Featured technologies used</h4>
       <div class="mt-6 -ml-2 flex flex-wrap gap-3 sm:ml-0">
         {
-          [<IconNext />, <IconFirebase />, <IconReact />].map((icon) => (
+          [<IconNext />, <IconReact />, <IconTailwindcss />].map((icon) => (
             <div class="-ml-2 w-20 scale-[90%] sm:ml-0 sm:min-h-[100px] sm:min-w-[100px] sm:scale-100">{icon}</div>
           ))
         }

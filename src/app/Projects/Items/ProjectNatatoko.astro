@@ -2,12 +2,9 @@
 import { Image } from "@astrojs/image/components";
 
 import ButtonLiveProduction from "../../../components/ButtonLiveProduction/ButtonLiveProduction.astro";
-import IconCloudflare from "../Icons/IconCloudflare.astro";
-import IconDokku from "../Icons/IconDokku.astro";
-import IconHasura from "../Icons/IconHasura.astro";
-import IconNuxt from "../Icons/IconNuxt.astro";
-import IconSentry from "../Icons/IconSentry.astro";
-import IconVue from "../Icons/IconVue.astro";
+import IconCss from "../Icons/IconCss.astro";
+import IconHtml from "../Icons/IconHtml.astro";
+import IconJs from "../Icons/IconJs.astro";
 import IconNatatoko from "../Natanya/IconNatatoko.astro";
 import ProjectSlider from "../ProjectSlider.astro";
 ---
@@ -40,11 +37,11 @@ import ProjectSlider from "../ProjectSlider.astro";
   />
 
   <div class="relative z-10 px-5 sm:px-10 lg:px-16">
-    <h3 class="sr-only">Natatoko</h3>
+    <h3 class="sr-only">Shoemarket</h3>
 
     <IconNatatoko />
 
-    <h4 class="sr-only">About Natatoko</h4>
+    <h4 class="sr-only">About Shoemarket</h4>
 
     <p class="mt-10 text-lg !leading-150 text-dark sm:text-2xl">
       <strong class="font-semibold">Build a customizable well designed web store in 5 minutes</strong> with ease and sell
@@ -56,13 +53,13 @@ import ProjectSlider from "../ProjectSlider.astro";
     <ProjectSlider
       project="natatoko"
       images={[
-        { url: "/images/projects/1@natatoko.png", alt: "Natatoko" },
-        { url: "/images/projects/2@natatoko.png", alt: "Natatoko" },
-        { url: "/images/projects/3@natatoko.png", alt: "Natatoko" },
-        { url: "/images/projects/4@natatoko.png", alt: "Natatoko" },
-        { url: "/images/projects/5@natatoko.png", alt: "Natatoko" },
-        { url: "/images/projects/6@natatoko.png", alt: "Natatoko" },
-        { url: "/images/projects/7@natatoko.png", alt: "Natatoko" },
+        { url: "/images/projects/1@shoemarket.png", alt: "Shoemarket" },
+        { url: "/images/projects/2@shoemarket.png", alt: "Shoemarket" },
+        { url: "/images/projects/3@shoemarket.png", alt: "Shoemarket" },
+        // { url: "/images/projects/4@shoemarket.png", alt: "Shoemarket" },
+        // { url: "/images/projects/5@shoemarket.png", alt: "Shoemarket" },
+        // { url: "/images/projects/6@shoemarket.png", alt: "Shoemarket" },
+        // { url: "/images/projects/7@shoemarket.png", alt: "Shoemarket" },
       ]}
     />
   </div>
@@ -81,7 +78,7 @@ import ProjectSlider from "../ProjectSlider.astro";
     </p>
 
     <div class="mt-10 mb-10 sm:mt-[4.4rem] sm:mb-14">
-      <ButtonLiveProduction name="natatoko.com" link="https://natatoko.com" />
+      <ButtonLiveProduction name="shoemarket" link="https://demo-shoemarket.voltzxs.repl.co/" />
     </div>
 
     <div class="flex items-start space-x-4 pl-5 sm:space-x-10 sm:pl-8">
@@ -112,7 +109,7 @@ import ProjectSlider from "../ProjectSlider.astro";
       <h4 class="text-2xl font-semibold leading-140 text-dark sm:text-[32px]">Featured technologies used</h4>
       <div class="mt-6 -ml-2 flex flex-wrap gap-4 gap-y-0 sm:ml-0 sm:gap-y-4">
         {
-          [<IconHasura />, <IconNuxt />, <IconVue />, <IconCloudflare />, <IconDokku />, <IconSentry />].map((icon) => (
+          [<IconHtml />, <IconCss />, <IconJs />].map((icon) => (
             <div class="-ml-2 w-20 scale-[80%] sm:ml-0 sm:min-h-[100px] sm:min-w-[100px] sm:scale-100">{icon}</div>
           ))
         }
