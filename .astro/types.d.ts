@@ -213,37 +213,23 @@ declare module 'astro:content' {
   collection: "blog";
   data: any
 } & { render(): Render[".mdx"] };
-"003-sentimen-analisis-api.mdx": {
-	id: "003-sentimen-analisis-api.mdx";
+"003-mendalami-antarmuka-pengguna-dengan-reactjs-konsep-dan-implementasi.mdx": {
+	id: "003-mendalami-antarmuka-pengguna-dengan-reactjs-konsep-dan-implementasi.mdx";
+  slug: "mendalami-antarmuka-pengguna-dengan-reactjs-konsep-dan-implementasi";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".mdx"] };
+"004-meraih-kinerja-optimal-dengan-nextjs-memahami-server-side-rendering-dan-strategi-optimalisasi.mdx": {
+	id: "004-meraih-kinerja-optimal-dengan-nextjs-memahami-server-side-rendering-dan-strategi-optimalisasi.mdx";
+  slug: "meraih-kinerja-optimal-dengan-nextjs-memahami-server-side-rendering-dan-strategi-optimalisasi";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".mdx"] };
+"005-sentimen-analisis-api.mdx": {
+	id: "005-sentimen-analisis-api.mdx";
   slug: "sentimen-analisis-api";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".mdx"] };
-"004-bikin-web-dengan-cepat-simple-ngebut-pakai-astro.mdx": {
-	id: "004-bikin-web-dengan-cepat-simple-ngebut-pakai-astro.mdx";
-  slug: "bikin-web-dengan-cepat-simple-ngebut-pakai-astro";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".mdx"] };
-"005-bikin-web-linktree-pakai-astro.mdx": {
-	id: "005-bikin-web-linktree-pakai-astro.mdx";
-  slug: "bikin-web-aplikasi-link-tree-pakai-astro";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".mdx"] };
-"006-crawl-data-twitter-cepat-mudah-python-snscrape.mdx": {
-	id: "006-crawl-data-twitter-cepat-mudah-python-snscrape.mdx";
-  slug: "crawl-data-twitter-cepat-mudah-python-snscrape";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".mdx"] };
-"007-crawl-data-twitter-menggunakan-tweet-harvest.mdx": {
-	id: "007-crawl-data-twitter-menggunakan-tweet-harvest.mdx";
-  slug: "crawl-data-twitter-menggunakan-tweet-harvest";
   body: string;
   collection: "blog";
   data: any
