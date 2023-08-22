@@ -9,7 +9,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://wakhidpangestu.netlify.app",
+  site: "https://wakhidpangestu.vercel.app",
   integrations: [
     tailwind(),
     mdx({
@@ -22,7 +22,7 @@ export default defineConfig({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
     sitemap({
-      filter: (page) => page !== "https://wakhidpangestu.netlify.app/belajar/" && page !== "https://wakhidpangestu.netlify.app/_image/",
+      filter: (page) => page !== "https://wakhidpangestu.vercel.app/belajar/" && page !== "https://wakhidpangestu.vercel.app/_image/",
     }),
   ],
   output: "server",
