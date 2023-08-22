@@ -9,7 +9,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://helmisatria.com",
+  site: "https://wakhidpangestu.netlify.app",
   integrations: [
     tailwind(),
     mdx({
@@ -22,7 +22,7 @@ export default defineConfig({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
     sitemap({
-      filter: (page) => page !== "https://helmisatria.com/belajar/" && page !== "https://helmisatria.com/_image/",
+      filter: (page) => page !== "https://wakhidpangestu.netlify.app/belajar/" && page !== "https://wakhidpangestu.netlify.app/_image/",
     }),
   ],
   output: "server",
