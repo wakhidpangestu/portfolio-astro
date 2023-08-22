@@ -199,9 +199,9 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
-"001-mendapatkan-data-tweet-pak-jokowi-twitter.mdx": {
-	id: "001-mendapatkan-data-tweet-pak-jokowi-twitter.mdx";
-  slug: "mendapatkan-data-tweet-pak-jokowi-twitter";
+"001-mengenal-dasar-dasar-pengembangan-web-html-css-dan-javascript.mdx": {
+	id: "001-mengenal-dasar-dasar-pengembangan-web-html-css-dan-javascript.mdx";
+  slug: "mengenal-dasar-dasar-pengembangan-web-html-css-dan-javascript";
   body: string;
   collection: "blog";
   data: any
