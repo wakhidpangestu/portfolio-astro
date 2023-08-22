@@ -206,9 +206,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: any
 } & { render(): Render[".mdx"] };
-"002-sentimen-analisis-pak-john.mdx": {
-	id: "002-sentimen-analisis-pak-john.mdx";
-  slug: "sentimen-analisis-pak-john";
+"002-memahami-interaksi-web-dengan-javascript-melalui-konsep-dasar-dan-studi-kasus-praktis.mdx": {
+	id: "002-memahami-interaksi-web-dengan-javascript-melalui-konsep-dasar-dan-studi-kasus-praktis.mdx";
+  slug: "memahami-interaksi-web-dengan-javascript-melalui-konsep-dasar-dan-studi-kasus-praktis";
   body: string;
   collection: "blog";
   data: any
